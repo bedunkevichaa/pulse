@@ -1,0 +1,52 @@
+@media (max-width: 991px) {
+	.container {
+		padding: 0 21px 0 21px;
+	}
+}
+@media (max-width: 767px) {
+	.header {
+		&__official {
+			font-size: 11px;
+		}
+		a {
+			font-size: 17px;
+		}
+	}
+}	
+@media (max-width: 735px) {
+	.advantages {
+		&__icons {
+			flex-direction: column;	
+		}
+		&__subtitle {
+			margin: 0 auto;
+		}
+		&__icon {
+			img {
+				padding-top: 35px;
+			}
+		}
+	}
+}
+@media (max-width: 575px) {
+	.header {
+		&__official {
+			font-size: 11px;
+		}
+		a {
+			font-size: 17px;
+		}
+		
+	}
+	.promo {
+		h1 {
+			font-size: 28px;
+		}
+		h2 {
+			font-size: 15px;
+		}
+		&__icons {
+			min-width: 320px;
+		}
+	}
+}

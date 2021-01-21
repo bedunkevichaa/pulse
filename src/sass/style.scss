@@ -6,6 +6,9 @@
     max-width: 950px;
     margin: 0 auto;
 }
+
+@import '_media.scss';
+
 @import 'blocks/promo';
 @import 'blocks/header';
 @import 'blocks/buttons';
