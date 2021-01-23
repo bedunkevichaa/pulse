@@ -39,11 +39,6 @@
 	}
 }
 @media (max-width: 576px) {
-	.promo {
-		min-height: 800px;
-
-		padding: 0 20px 0 20px;
-	}
  	.container {
 		max-width: 310px;
 		.header {
@@ -78,67 +73,9 @@
 			margin-top: 40px;
 			font-size: 12px;
 			width: 290px;
+		}
+		.title {
+			font-size: 23px;
 		} 
 	}
 }
-
-// @media screen and (max-width: 991px) {
-// 	.container {
-// 		padding: 0 21px 0 21px;
-// 	}
-// }
-// @media screen and (max-width: 767px) {
-// 	.promo {
-// 		.header {
-// 			width: 100%;
-// 			display: flex;
-// 			flex-wrap: wrap;
-// 			justify-content: center;
-// 			&__logo {
-// 				margin-right: 20px;
-// 			}
-// 			&__contacts {
-// 				margin-top: 20px;
-// 			}
-// 		}
-// 		.promo__wrapper {
-// 			margin-top: 45px;
-// 			.promo__header {
-// 				font-size: 30px;
-// 			}
-// 			.promo__subheader {
-// 				margin-top: 10px;
-// 				font-size: 18px;
-// 			}
-// 			.promo__icons {
-// 				margin-top: 45px;
-// 			}
-// 			.button_main {
-// 				margin-top: 47px;
-// 			}
-// 		}
-// 	}
-		
-// }	
-// @media screen and (max-width: 575px) {
-// 	.header {
-// 		&__official {
-// 			font-size: 11px;
-// 		}
-// 		a {
-// 			font-size: 17px;
-// 		}
-		
-// 	}
-// 	.promo {
-// 		h1 {
-// 			font-size: 28px;
-// 		}
-// 		h2 {
-// 			font-size: 15px;
-// 		}
-// 		&__icons {
-// 			min-width: 320px;
-// 		}
-// 	}
-// }
