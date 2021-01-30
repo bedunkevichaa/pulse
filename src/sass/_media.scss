@@ -6,15 +6,22 @@
 @media (max-width: 992px) {
 	.container {
 		max-width: 720px;
+		
 	}
 }
 @media (max-width: 768px) {
 	.container {
 		max-width: 540px;
-	.header {
-		&__phone {
-			font-size: 17px;
-		}
+		.header {
+			&__phone {
+				font-size: 17px;
+			}
+	}
+	.catalog__content_active {
+		justify-content: center;
+	}
+	.catalog__tab {
+		font-size: 10px;
 	}
 	.promo {
 		&__wrapper{
@@ -26,6 +33,8 @@
 		&__subheader {
 			font-size: 20px;
 		}
+	
+	}	
 	}
 	.advantages {
 		&__icons {
@@ -35,8 +44,13 @@
 		&__icon {
 			margin-top: 20px;
 		}	
-	}	
 	}
+	.carousel__inner {
+		img {
+			width: 100%;
+		}	
+	}
+	
 }
 @media (max-width: 576px) {
  	.container {
@@ -69,6 +83,11 @@
 				margin-top: 40px;
 			}
 		}
+		.advantages {
+			&__icons {
+				justify-content: center;
+			}
+		}
 		.button_main {
 			margin-top: 40px;
 			font-size: 12px;
@@ -76,6 +95,44 @@
 		}
 		.title {
 			font-size: 23px;
-		} 
+			text-align: center;
+		}
+		.consultation {
+			&__discr {
+				text-align: center;
+			}
+			
+		}
+		.feed-form {
+			width: 100%;
+			input {
+				text-align: center;
+			}
+		}
+		.carousel__inner {
+			img {
+				width: 100%;
+			}
+		}
+		.reviews {
+			
+			&__wrapper {
+				flex-wrap: wrap;
+				justify-content: center;
+			}
+			&__img {
+				margin: 0 auto;
+			} 
+		}
+		h2 {
+			font-size: 27px;
+		}	
+	}
+	
+	.modal {
+		&__close {
+			top: 5px !important;
+			right: 3px !important;
+		}
 	}
 }
