@@ -31,7 +31,7 @@
 	}
 	&__icons {
 		margin-top: 65px;
-		max-width: 425px;
+		max-width: 625px;
 		display: flex;
 		justify-content: space-between;
 		font-weight: 500;
@@ -41,6 +41,7 @@
 	&__icon {
 		max-width: 108px;
 		text-align: center;
+		margin-right: 35px;
 		img {
 			display: block;
 			margin: 0 auto;

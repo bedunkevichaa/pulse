@@ -138,14 +138,18 @@
             transition: 0.5s all;
             padding-left: 19px;
             margin-bottom: 0;
-            list-style-type: none;
+            
             &_active {
                 transform: translateX(-100%);
                 margin-left: 0px;
             }
+            
+        }
+        &__inlist {
+            padding-left: 0;
+            list-style-type: none;
             li {
                 position: relative;
-                //padding: 17px 0;
                 font-weight: 300;
                 font-size: 14px;
                 color: #555555;

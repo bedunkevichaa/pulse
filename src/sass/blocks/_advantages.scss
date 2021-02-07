@@ -27,17 +27,25 @@
         font-weight: 700;
         font-size: 18px;
         color: #0D0D0D;
+        
     } 
     &__icon {
         max-width: 100%;
         text-align: center;
-		img {
-            max-width: 100%;
-			display: block;
-			margin: 0 auto;
-			margin-bottom: 35px;
-        }
+		
     } 
+    &__pic {
+        max-width: 100%;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 35px;
+        &_animated {
+            animation: heartbeat 1.5s ease infinite;
+            &:hover {
+                animation-play-state: paused;
+            }
+        }
+    }
     &__subtitle {
         max-width: 231px;
         margin-top: 20px;
